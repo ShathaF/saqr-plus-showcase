@@ -8,7 +8,7 @@ A graduation project that counts people in crowded scenes in real time, to suppo
 
 | Project introduction | Live demo |
 |:---:|:---:|
-| [![SAQR+ introduction](docs/intro-thumbnail.png)](https://youtu.be/9INMoCznNrg) | [![SAQR+ demo](docs/demo-thumbnail.png)](https://youtu.be/CM7lS4D2KUA) |
+| [![SAQR+ introduction](docs/intro-thumbnail.png)](https://youtu.be/9INMoCznNrg) | [![SAQR+ demo](docs/demo-thumbnail.png)](https://drive.google.com/file/d/1c0qQeD0DsioKnfGqV1M5MQQm2r2ETExU/view?usp=sharing) |
 
 ## The problem
 
