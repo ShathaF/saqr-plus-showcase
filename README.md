@@ -46,7 +46,7 @@ Public crowd counting datasets are mostly not stadium-specific, and the one stad
 I built the pipeline that prepared this data for training, with OpenCV and Pandas:
 
 - Frame extraction from the videos
-- Ground truth annotation
+- Ground truth annotation (done with help from teammates)
 - Preprocessing: ROI cropping and spatial refinement
 - Density map generation
 - Dataset splitting with time-cycle chunking
@@ -58,7 +58,7 @@ SAQR+ was built by the whole team. My part:
 
 - **Team lead:** I coordinated tasks, handled communication with academic supervisors, and delivered the project on schedule.
 - **Crowd counting model:** I designed and trained SaqrNet.
-- **Data pipeline:** I built the preprocessing and annotation pipeline.
+- **Data pipeline:** I built the pipeline from frame extraction to density maps, and annotated the data with help from teammates.
 - **Project report:** I wrote the report in Word and revised it with the other members' input.
 
 ## Tech stack
