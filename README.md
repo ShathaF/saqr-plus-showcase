@@ -41,7 +41,16 @@ Evaluated on the public **ShanghaiTech Part B** benchmark against the **CSRNet**
 
 ## Data pipeline
 
-Beyond the public benchmark, I built a preprocessing and annotation pipeline with OpenCV and Pandas, using footage collected locally from a sports club in Yanbu.
+Public crowd counting datasets are mostly not stadium-specific, and the one stadium-focused dataset we found did not fit our setup. So the team collected its own footage at a sports club in Yanbu: **7 videos, from which 375 frames were extracted**.
+
+I built the pipeline that prepared this data for training, with OpenCV and Pandas:
+
+- Frame extraction from the videos
+- Ground truth annotation
+- Preprocessing: ROI cropping and spatial refinement
+- Density map generation
+- Dataset splitting with time-cycle chunking
+- Data augmentation
 
 ## My role
 
